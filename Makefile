@@ -1,7 +1,6 @@
 SUBDIRS = libdebug \
           libhttps \
 
-
 all     :
 	@for x in $(SUBDIRS); do cd $$x; make; cd ..; done
 
